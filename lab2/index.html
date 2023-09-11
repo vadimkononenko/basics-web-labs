@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Кононенко В.О. ІП-05 лаба 2</title>
+</head>
+<body>
+
+<div class="task1">
+    <div class="form-container">
+        <form id="myCustomForm">
+            <h3>Форма для заповнення</h3>
+
+            <div class="form-group">
+                <label for="fullName"></label>
+                <input type="text" placeholder="ПІБ" id="fullName" name="fullName">
+            </div>
+
+            <div class="form-group">
+                <label for="phoneNumber"></label>
+                <input type="text" placeholder="Телефон" id="phoneNumber" name="phoneNumber">
+            </div>
+
+            <div class="form-group">
+                <label for="id-card"></label>
+                <input type="text" placeholder="ID-card" id="id-card" name="id-card">
+            </div>
+
+            <div class="form-group">
+                <label for="birthday"></label>
+                <input type="text" placeholder="Дата народж." id="birthday" name="birthday">
+            </div>
+
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="text" placeholder="email" id="email" name="email">
+            </div>
+
+            <button type="submit">Підтвердити</button>
+        </form>
+    </div>
+
+    <div class="user-info">
+        <h3>Введені данні</h3>
+        <p><b>ПІБ:</b> <span id="user-fullName"></span></p>
+        <p><b>Телефон:</b> <span id="user-phoneNumber"></span></p>
+        <p><b>ID-card:</b> <span id="user-id-card"></span></p>
+        <p><b>Дата народж.:</b> <span id="user-birthday"></span></p>
+        <p><b>e-mail:</b> <span id="user-email"></span></p>
+    </div>
+</div>
+
+<div class="task2">
+    <label>
+        <input type="color" id="colorPicker" />
+    </label>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
